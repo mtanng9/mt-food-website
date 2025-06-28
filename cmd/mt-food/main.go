@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/mtanng9/mt-food-website/server"
+)
 
 func main() {
-	fmt.Print("Hello World")
+	server.StartServer()
 }
